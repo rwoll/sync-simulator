@@ -1,0 +1,23 @@
+{
+  "name": "sync-simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/elm-make --yes Interactive.elm --output=./dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rwoll/sync-simulator.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rwoll/sync-simulator/issues"
+  },
+  "homepage": "https://github.com/rwoll/sync-simulator#readme",
+  "dependencies": {
+    "elm": "^0.18.0"
+  }
+}
